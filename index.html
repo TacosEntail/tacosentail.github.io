@@ -1,2 +1,909 @@
-<h1>Hello World</h1>
-<h4>Testing how long this takes</h4>
+<!DOCTYPE HTML>
+<html>
+    <body style="background-color: #FFFCF2;"></body>
+    <!--<body style="background-color: #786B3D;"></body>-->
+  <head>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="dnd.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    
+    <nav class="navbar sticky-top navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">DNDNici</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav-scroll">
+            <li class="nav-item"><a class="nav-link" href="#Homebrew">Homebrew</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Spells">Spells</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Races">Races</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Backgrounds">Backgrounds</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#Classes" role="button" data-bs-toggle="dropdown" aria-expanded="false">Classes</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#Artificer">Artificer</a></li>
+                <li><a class="dropdown-item" href="#Barbarian">Barbarian</a></li>
+                <li><a class="dropdown-item" href="#Bard">Bard</a></li>
+                <li><a class="dropdown-item" href="#Blood Hunter">Blood Hunter</a></li>
+                <li><a class="dropdown-item" href="#Cleric">Cleric</a></li>
+                <li><a class="dropdown-item" href="#Druid">Druid</a></li>
+                <li><a class="dropdown-item" href="#Fighter">Fighter</a></li>
+                <li><a class="dropdown-item" href="#Monk">Monk</a></li>
+                <li><a class="dropdown-item" href="#Paladin">Paladin</a></li>
+                <li><a class="dropdown-item" href="#Ranger">Ranger</a></li>
+                <li><a class="dropdown-item" href="#Rogue">Rogue</a></li>
+                <li><a class="dropdown-item" href="#Sorcerer">Sorcerer</a></li>
+                <li><a class="dropdown-item" href="#Warlock">Warlock</a></li>
+                <li><a class="dropdown-item" href="#Wizard">Wizard</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#Feats">Feats</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Items">Items</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Miscellaneous">Miscellaneous</a></li>
+          </ul>
+          <!--<form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>-->
+        </div>
+      </div>
+    </nav>
+
+    <div class="text-center">
+      <div class="title" >
+        <h1>Welcome to Nic's Custom Dungeons &amp; Dragons Wiki</h1>
+        <p>Souce of info and style <a href="https://dnd5e.wikidot.com/">dnd5e.wikidot</a></p>
+        <p>Alternative <a href="https://5e.tools/index.html">5e.tools/index</a></p>
+      </div>
+    </div>
+
+    <div id="Homebrew" class="offrow">
+      <h2 class="text-center">Homebrew</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <h4>Alternate Rules</h4>
+          <ul>
+            <li><a href="">Spell Points</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="Spells" class="onrow">
+      <div class="row justify-content-center">
+        <div class="col-md-2">
+          <h2 ><a href="spells">All Spells</a></h2>
+          <ul>
+            <li><a href="spells.html">Artificer Spells</a></li>
+            <li><a href="spells.html">Bard Spells</a></li>
+            <li><a href="spells.html">Cleric Spells</a></li>
+            <li><a href="spells.html">Druid Spells</a></li>
+            <li><a href="spells.html">Paladin Spells</a></li>
+            <li><a href="spells.html">Ranger Spells</a></li>
+            <li><a href="spells.html">Sorcerer Spells</a></li>
+            <li><a href="spells.html">Warlock Spells</a></li>
+            <li><a href="spells.html">Wizard Spells</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h2>Schools</h2>
+          <ul>
+            <li><a href="spells.html">Abjuration</a></li>
+            <li><a href="spells.html">Conjuration</a></li>
+            <li><a href="spells.html">Divination</a></li>
+            <li><a href="spells.html">Enchantment</a></li>
+            <li><a href="spells.html">Evocation</a></li>
+            <li><a href="spells.html">Illusion</a></li>
+            <li><a href="spells.html">Necromancy</a></li>
+            <li><a href="spells.html">Transmutation</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="Races" class="offrow">
+      <h2 class="text-center"><a href="lineage/lineage.html">All Races</a></h2>
+      <div class="row justify-content-center">
+        <div class="col-md-2">
+          <ul>
+            <li><a href="lineage/lineage.html#Common">Common</a></li>
+            <ul>
+              <li><a href="lineage/">Dragonborn</a></li>
+              <li><a href="lineage/">Dwarf</a></li>
+              <li><a href="lineage/">Elf</a></li>
+              <li><a href="lineage/">Gnome</a></li>
+              <li><a href="lineage/">Half-Elf</a></li>
+              <li><a href="lineage/">Half-Orc</a></li>
+              <li><a href="lineage/">Halfing</a></li>
+              <li><a href="lineage/">Human</a></li>
+              <li><a href="lineage/">Tiefling</a></li>
+            </ul>
+            <li><a href="lineage/lineage.html#Monstrous">Monstrous</a></li>
+            <ul>
+              <li><a href="lineage/">Bugbear</a></li>
+              <li><a href="lineage/">Centaur</a></li>
+              <li><a href="lineage/">Goblin</a></li>
+              <li><a href="lineage/">Grung</a></li>
+              <li><a href="lineage/">Hobgoblin</a></li>
+              <li><a href="lineage/">Kobold</a></li>
+              <li><a href="lineage/">Lizardfolk</a></li>
+              <li><a href="lineage/">Minotaur</a></li>
+              <li><a href="lineage/">Orc</a></li>
+              <li><a href="lineage/">Shifter</a></li>
+              <li><a href="lineage/">Yuan-Ti</a></li>
+            </ul>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul>
+            <li><a href="lineage/lineage.html#Exotic">Exotic</a></li>
+            <ul>
+              <li><a href="lineage/">Aarakocra</a></li>
+              <li><a href="lineage/">Aasimar</a></li>
+              <li><a href="lineage/">Changeling</a></li>
+              <li><a href="lineage/">Deep Gnome</a></li>
+              <li><a href="lineage/">Duegrar</a></li>
+              <li><a href="lineage/">Eladrin</a></li>
+              <li><a href="lineage/">Fairy</a></li>
+              <li><a href="lineage/">Firbolg</a></li>
+              <li><a href="lineage/">Genasi (Air)</a></li>
+              <li><a href="lineage/">Genasi (Earth)</a></li>
+              <li><a href="lineage/">Genasi (Fire)</a></li>
+              <li><a href="lineage/">Genasi (Water)</a></li>
+              <li><a href="lineage/">Githyanki</a></li>
+              <li><a href="lineage/">Githzerai</a></li>
+              <li><a href="lineage/">Goliath</a></li>
+              <li><a href="lineage/">Harengon</a></li>
+              <li><a href="lineage/">Kenku</a></li>
+              <li><a href="lineage/">Locathah</a></li>
+              <li><a href="lineage/">Owlin</a></li>
+              <li><a href="lineage/">Satyr</a></li>
+              <li><a href="lineage/">Sea Elf</a></li>
+              <li><a href="lineage/">Shadar-Kai</a></li>
+              <li><a href="lineage/">Tabaxi</a></li>
+              <li><a href="lineage/">Tortle</a></li>
+              <li><a href="lineage/">Triton</a></li>
+              <li><a href="lineage/">Verdan</a></li>
+            </ul>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul>
+            <li><a href="lineage/lineage.html#Setting">Setting Specific</a></li>
+            <ul>
+              <li><a href="lineage/lineage.html#Dragonlance">Dragonlance</a></li>
+              <li><a href="lineage/lineage.html#Eberron">Eberron</a></li>
+              <li><a href="lineage/lineage.html#Plane Shift">Plane Shift</a></li>
+              <li><a href="lineage/lineage.html#Ravenloft">Ravenloft</a></li>
+              <li><a href="lineage/lineage.html#Ravnica">Ravnica</a></li>
+              <li><a href="lineage/lineage.html#Spelljammer">Spelljammer</a></li>
+              <li><a href="lineage/lineage.html#Theros">Theros</a></li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="Backgrounds" class="onrow">
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <h2 class="">Backgrounds</h2>
+          <ul>
+            <li><a href="background.html#">Acolyte</a></li>
+            <li><a href="background.html#">Anthropologist</a></li>
+            <li><a href="background.html#">Archaeologist</a></li>
+            <li><a href="background.html#">Athlete</a></li>
+            <li><a href="background.html#">Chrlatan</a></li>
+            <li><a href="background.html#">City Watch</a></li>
+            <li><a href="background.html#">Clan Crafter</a></li>
+            <li><a href="background.html#">Clooistered Scholar</a></li>
+            <li><a href="background.html#">Courtier</a></li>
+            <li><a href="background.html#">Criminal</a></li>
+            <li><a href="background.html#">Entertainer</a></li>
+            <li><a href="background.html#">Faceless</a></li>
+            <li><a href="background.html#">Faction Agent</a></li>
+            <li><a href="background.html#">Far Traveler</a></li>
+            <li><a href="background.html#">Feylost</a></li>
+            <li><a href="background.html#">Fisher</a></li>
+            <li><a href="background.html#">Folk Hero</a></li>
+            <li><a href="background.html#">Giant Foundling</a></li>
+            <li><a href="background.html#">Gladiator</a></li>
+            <li><a href="background.html#">Guild Artisan</a></li>
+            <li><a href="background.html#">Guild Merchant</a></li>
+            <li><a href="background.html#">Haunted One</a></li>
+            <li><a href="background.html#">Hermit</a></li>
+            <li><a href="background.html#">House Agent</a></li>
+            <li><a href="background.html#">Inheritor</a></li>
+            <li><a href="background.html#">Investigator (SCAG)</a></li>
+            <li><a href="background.html#">Investigator (VRGR)</a></li>
+            <li><a href="background.html#">Knight</a></li>
+            <li><a href="background.html#">Knight of the Order</a></li>
+            <li><a href="background.html#">Marine</a></li>
+            <li><a href="background.html#">Mercenary Veteran</a></li>
+            <li><a href="background.html#">Noble</a></li>
+            <li><a href="background.html#">Outlander</a></li>
+            <li><a href="background.html#">Pirate</a></li>
+            <li><a href="background.html#">Rewarded</a></li>
+            <li><a href="background.html#">Ruined</a></li>
+            <li><a href="background.html#">Rune Carver</a></li>
+            <li><a href="background.html#">Sage</a></li>
+            <li><a href="background.html#">Sailor</a></li>
+            <li><a href="background.html#">Shipwright</a></li>
+            <li><a href="background.html#">Smuggler</a></li>
+            <li><a href="background.html#">Solder</a></li>
+            <li><a href="background.html#">Spy</a></li>
+            <li><a href="background.html#">Urban Bounty Hunter</a></li>
+            <li><a href="background.html#">Urchin</a></li>
+            <li><a href="background.html#">Uthgardt Tribe Member</a></li>
+            <li><a href="background.html#">Waterdhavian Noble</a></li>
+            <li><a href="background.html#">Witchlight Hand</a></li>
+            <li><a href="background.html#">Black Fist Double Agent</a></li>
+            <li><a href="background.html#">Dragon Casuatly</a></li>
+            <li><a href="background.html#">Iron Route Bandit</a></li>
+            <li><a href="background.html#">Phlan Insurgent</a></li>
+            <li><a href="background.html#">Stojanow Prisoner</a></li>
+            <li><a href="background.html#">Ticklebelly Nomad</a></li>
+            <li><a href="background.html#">Caravan Specialist</a></li>
+            <li><a href="background.html#">Earthspur Miner</a></li>
+            <li><a href="background.html#">Harborfolk</a></li>
+            <li><a href="background.html#">Mulmaster Aristocrat</a></li>
+            <li><a href="background.html#">Phlan Refugee</a></li>
+            <li><a href="background.html#">Cormanthor Refugee</a></li>
+            <li><a href="background.html#">Gate Urchin</a></li>
+            <li><a href="background.html#">Hillsfar Merchant</a></li>
+            <li><a href="background.html#">Hillsfar Merchant</a></li>
+            <li><a href="background.html#">Secret Identity</a></li>
+            <li><a href="background.html#">Shade Fanatic</a></li>
+            <li><a href="background.html#">Trade Sheriff</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h2>Setting Specific</h2>
+          <h4>Acquisitions Inc.</h4>
+          <ul>
+            <li><a href="background.html#">Celebrity Adventurer's Scion</a></li>
+            <li><a href="background.html#">Failed Merchant</a></li>
+            <li><a href="background.html#">Gambler</a></li>
+            <li><a href="background.html#">Plaintiff</a></li>
+            <li><a href="background.html#">Rival Intern</a></li>
+          </ul>
+          <h4>Amonkhet</h4>
+          <ul>
+            <li><a href="background.html#">Dissenter</a></li>
+            <li><a href="background.html#">Initiate</a></li>
+            <li><a href="background.html#">Vizier</a></li>
+          </ul>
+          <h4>Dragonlance</h4>
+          <ul>
+            <li><a href="background.html#">Knight of Solamnia</a></li>
+            <li><a href="background.html#">Mage of High Sorcery</a></li>
+          </ul>
+          <h4>Innistrad</h4>
+          <ul>
+            <li><a href="background.html#">Inquisitor</a></li>
+          </ul>
+          <h4>Planescape</h4>
+          <ul>
+            <li><a href="background.html#">Gate Warden</a></li>
+            <li><a href="background.html#">Planar Philosopher</a></li>
+          </ul>
+          <h4>Ravnica</h4>
+          <ul>
+            <li><a href="background.html#">Azorius Functionary</a></li>
+            <li><a href="background.html#">Boros Legionnaire</a></li>
+            <li><a href="background.html#">Dimir Operative</a></li>
+            <li><a href="background.html#">Golgari Agent</a></li>
+            <li><a href="background.html#">Gruul Anarch</a></li>
+            <li><a href="background.html#">Izzet Engineer</a></li>
+            <li><a href="background.html#">Orzhov Representative</a></li>
+            <li><a href="background.html#">Rakdos Cultist</a></li>
+            <li><a href="background.html#">Selesnya Initiate</a></li>
+            <li><a href="background.html#">Simic Scientist</a></li>
+          </ul>
+          <h4>Strixhaven</h4>
+          <ul>
+            <li><a href="background.html#">Lorehold Student</a></li>
+            <li><a href="background.html#">Prismari Student</a></li>
+            <li><a href="background.html#">Quadrix Student</a></li>
+            <li><a href="background.html#">Silverquil Student</a></li>
+            <li><a href="background.html#">Witherbloom Student</a></li>
+          </ul>
+          <h4>Wildemount</h4>
+          <ul>
+            <li><a href="background.html#">Grinner</a></li>
+            <li><a href="background.html#">Volstrucker Agent</a></li>
+          </ul> 
+          <h4>Spelljammer</h4>
+          <ul>
+            <li><a href="background.html#">Astral Drifter</a></li>
+            <li><a href="background.html#">Wildspacer</a></li>
+          </ul>
+          <h4><a href="">Optional Features</a></h4>
+        </div>
+      </div>
+    </div>
+
+    <div id="Classes">
+      <div class="offrowclass">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h2 id="Artificer" class="classes"><a href="Classes/Artificer/Artificer.html">Artificer (Eberron)</a></h2>
+            <p class="italic">Makers of magic-infused objects, artificers are defined by their inventive natuer. They see magic as a complex system waiting to be decoded and controlled. Instead of ephemeral spells, they seek to craft durable, useful, marvelous magical items.</p>
+            <div class="row justify-content-left">
+              <div class="col-md-7">
+                <h4>Subclasses</h4>
+                <ul>
+                  <li><a href="">Alchemist</a></li>
+                  <li><a href="">Armorer</a></li>
+                  <li><a href="">Artillerist</a></li>
+                  <li><a href="">Battle Smith</a></li>
+                </ul>
+              </div>
+              <div class="col-md-5">
+                <h4>Quick Links</h4>
+                <ul>
+                  <li><a href="">Infusions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="onrowclass">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h2 id="Barbarian" class="classes"><a href="Classes/Barbarian/Barbarian.html">Barbarian</a></h2>
+            <p class="italic">For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.</p>
+            <div class="row justify-content-left">
+              <div class="col-md-7">
+                <h4>Sunclasses</h4>
+                <ul>
+                  <li><a href="">Path of the Ancestral Guardian</a></li>
+                  <li><a href="">Path of the Battlerager</a></li>
+                  <li><a href="">Path of the Beast</a></li>
+                  <li><a href="">Path of the Berserker</a></li>
+                  <li><a href="">Path of the Giant</a></li>
+                  <li><a href="">Path of the Storm Herald</a></li>
+                  <li><a href="">Path of the Totem Warrior</a></li>
+                  <li><a href="">Path of Wild Magic</a></li>
+                  <li><a href="">Path of the Zealot</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offrowclass">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h2 id="Bard" class="classes"><a href="Classes/Bard/Bard.html">Bard</a></h2>
+            <p class="italic">Whether scholar, skald, or scoundrel, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and even heal wounds. The bard is a master of song, speech, and the magic they contain.</p>
+            <div class="row justify-content-left">
+              <div class="col-md-7">
+                <h4>Subclasses</h4>
+                <ul>
+                  <li><a href="">College of Creation</a></li>
+                  <li><a href="">College of Eloquence</a></li>
+                  <li><a href="">College of Glamour</a></li>
+                  <li><a href="">College of Lore</a></li>
+                  <li><a href="">College of Spirits</a></li>
+                  <li><a href="">College of Swords</a></li>
+                  <li><a href="">College of Valor</a></li>
+                  <li><a href="">College of Whispers</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="onrowclass">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h2 id="Blood Hunter" class="classes"><a href="Classes/Blood Hunter/Blood Hunter.html">Blood Hunter (Critical Roll)</a></h2>
+            <p class="italic">Often feared or misunderstood, and driven by an unending drive to destory the wicked, blood hunters are clever, arcane warriors who have bound their essence to the dark creatures they hunt to better stalk and survive their prey. Armed with the rites of forbidden blood magic and a willingness to sacrifice their own vitality and humanity for the cause, they protect the realms from the shadows, ever vigilant to avoid becoming the same monsters they choose to hunt.</p>
+            <div class="row justify-content-left">
+              <div class="col-md-7">
+                <h4>Subclasses</h4>
+                <ul>
+                  <li><a href="">Order of the Ghostslayer</a></li>
+                  <li><a href="">Order of the Lycan</a></li>
+                  <li><a href="">Order of the Mutant</a></li>
+                  <li><a href="">Order of the Profane Soul</a></li>
+                </ul>
+              </div>
+              <div class="col-md-5">
+                <h4>Quick Links</h4>
+                <ul>
+                  <li><a href="">Blood Curse</a></li>
+                  <li><a href="">Mutagens</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offrowclass">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h2 id="Cleric" class="classes"><a href="Classes/Cleric/Cleric.html">Cleric</a></h2>
+            <p class="italic">Clerics are intermediaries between the mortal world and the distant planes of the gods, As veried as the gods they serve, clerics strive to embody the handiwork of their deities. No ordinary priest, a cleric is imbued with diving magic.</p>
+            <div class="row justify-content-left">
+              <div class="col-md-7">
+                <h4>Subclasses</h4>
+                <ul>
+                  <li><a href="">Arcana Domain</a></li>
+                  <li><a href="">Death Domain</a></li>
+                  <li><a href="">Forge Domain</a></li>
+                  <li><a href="">Grave Domain</a></li>
+                  <li><a href="">Knowledge Domain</a></li>
+                  <li><a href="">Life Domain</a></li>
+                  <li><a href="">Light Domain</a></li>
+                  <li><a href="">Nature Domain</a></li>
+                  <li><a href="">Order Domain</a></li>
+                  <li><a href="">Peace Domain</a></li>
+                  <li><a href="">Tempest Domain</a></li>
+                  <li><a href="">Trickery Domain</a></li>
+                  <li><a href="">Twilight Domain</a></li>
+                  <li><a href="">War Domain</a></li>
+                </ul>
+              </div>
+              <div class="col-md-5">
+                <h4>Amonkhet Setting</h4>
+                <ul>
+                  <li><a href="">Ambition Domain</a></li>
+                  <li><a href="">Solidarity Domain</a></li>
+                  <li><a href="">Strength Domain</a></li>
+                  <li><a href="">Zeal Domain</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="onrowclass">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h2 id="Druid" class="classes"><a href="Classes/Druid/Druid.html">Druid</a></h2>
+            <p class="italic">Whether calling on the elemental forces of nature or emulating the ceratures of the animal world, durids are an embodiment of nature's resilience, cunning, and fury. They indomitable will.</p>
+            <div class="row justify-content-left">
+              <div class="col-md-7">
+                <h4>Subclasses</h4>
+                <ul>
+                  <li><a href="">Circle of Dreams</a></li>
+                  <li><a href="">Circle of the Land</a></li>
+                  <li><a href="">Circle of the Moon</a></li>
+                  <li><a href="">Circle of the Shepherd</a></li>
+                  <li><a href="">Circle of Spores</a></li>
+                  <li><a href="">Circle of Stars</a></li>
+                  <li><a href="">Circle of Wildfire</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offrowclass">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h2 id="Fighter" class="classes"><a href="Classes/Fighter/Fighter.html">Fighter</a></h2>
+            <p class="italic">fighters share an unparalleled master with weapons and armor, and a thorough knowledge of the skills of combat. they are well acquainted with death, both meting it out and staring it defiantly in the face.</p>
+            <div class="row justify-content-left">
+              <div class="col-md-7">
+                <h4>Subclasses</h4>
+                <ul>
+                  <li><a href="">Arcane Archer</a></li>
+                  <li><a href="">Banneret</a></li>
+                  <li><a href="">Battle Master</a></li>
+                  <li><a href="">Cavalier</a></li>
+                  <li><a href="">Champion</a></li>
+                  <li><a href="">Echo Knight</a></li>
+                  <li><a href="">Eldritch Knight</a></li>
+                  <li><a href="">Psi Warrior</a></li>
+                  <li><a href="">Rune Knight</a></li>
+                  <li><a href="">Samurai</a></li>
+                </ul>
+              </div>
+              <div class="col-md-5">
+                <h4>Quick Links</h4>
+                <ul>
+                  <li><a href="">Battle Maneuvers</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="onrowclass">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h2 id="Monk" class="classes"><a href="Classes/Monk/Monk.html">Monk</a></h2>
+            <p class="italic">Monks are united in their ability to magically harness the energy that flows in their bodies. Whether cahnneled as a striking display of combat prowess or a subtler focus of defensive ability and speed, this energy infuses all that a monk does.</p>
+            <div class="row justify-content-left">
+              <div class="col-md-7">
+                <h4>Subclasses</h4>
+                <ul>
+                  <li><a href="">Way of Mercy</a></li>
+                  <li><a href="">Way of the Ascendant Dragon</a></li>
+                  <li><a href="">Way of the Astral Self</a></li>
+                  <li><a href="">Way of the Drunken Master</a></li>
+                  <li><a href="">Way of the Four Elements</a></li>
+                  <li><a href="">Way of the Kensei</a></li>
+                  <li><a href="">Way of the Long Death</a></li>
+                  <li><a href="">Way of the Open Hand</a></li>
+                  <li><a href="">Way of Shadow</a></li>
+                  <li><a href="">Way of the Sun Soul</a></li>
+                </ul>
+              </div>
+              <div class="col-md-5">
+                <h4>Quick Links</h4>
+                <ul>
+                  <li><a href="">Disciplines</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offrowclass">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h2 id="Paladin" class="classes"><a href="Classes/Paladin/Paladin.html">Paladin</a></h2>
+            <p class="italic">Whether sworn before a god's altar and the witness of a priest, in a sacred glade before nature spirits and fey beings, or in a moment of desperation and grief with the dead as the only witness, a paladin's oath is a powerful bond.</p>
+            <div class="row justify-content-left">
+              <div class="col-md-7">
+                <h4>Subclasses</h4>
+                <ul>
+                  <li><a href="">Oath of the Ancients</a></li>
+                  <li><a href="">Oath of Conquest</a></li>
+                  <li><a href="">Oath of the Crown</a></li>
+                  <li><a href="">Oath of Devotion</a></li>
+                  <li><a href="">Oath of Glory</a></li>
+                  <li><a href="">Oath of Redemption</a></li>
+                  <li><a href="">Oath of Vengeance</a></li>
+                  <li><a href="">Oath of the Watchers</a></li>
+                  <li><a href="">Oathbreaker</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="onrowclass">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h2 id="Ranger" class="classes"><a href="Classes/Ranger/Ranger.html">Ranger</a></h2>
+            <p class="italic">Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.</p>
+            <div class="row justify-content-left">
+              <div class="col-md-7">
+                <h4>Subclasses</h4>
+                <ul>
+                  <li><a href="">Beats Master</a></li>
+                  <li><a href="">Drakewarden</a></li>
+                  <li><a href="">Fey Wanderer</a></li>
+                  <li><a href="">Gloom Stalker</a></li>
+                  <li><a href="">Horizon Walker</a></li>
+                  <li><a href="">Hunter</a></li>
+                  <li><a href="">Monster Slayer</a></li>
+                  <li><a href="">Swarmkeeper</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offrowclass">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h2 id="Rogue" class="classes"><a href="Classes/Rogue/Rogue.html">Rogue</a></h2>
+            <p class="italic">Rogues rely on skill, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.</p>
+            <div class="row justify-content-left">
+              <div class="col-md-7">
+                <h4>Subclasses</h4>
+                <ul>
+                  <li><a href="">Arcane Trickster</a></li>
+                  <li><a href="">Assassin</a></li>
+                  <li><a href="">Inquisitive</a></li>
+                  <li><a href="">Mastermind</a></li>
+                  <li><a href="">Phantom</a></li>
+                  <li><a href="">Scout</a></li>
+                  <li><a href="">Soulknife</a></li>
+                  <li><a href="">Swashbuckler</a></li>
+                  <li><a href="">Thief</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="onrowclass">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h2 id="Sorcerer" class="classes"><a href="Classes/Sorcerer/Sorcerer.html">Sorcerer</a></h2>
+            <p class="italic">Sorcerers carry a amagical birthright conferred upon them by an exotic bloodline, some otherworldy influence, or exposure to unkown cosmic forces. No one chooses sorcery; the power chooses the sorcerer.</p>
+            <div class="row justify-content-left">
+              <div class="col-md-7">
+                <h4>Subclasses</h4>
+                <ul>
+                  <li><a href="">Aberrant Mind</a></li>
+                  <li><a href="">Clockwork Soul</a></li>
+                  <li><a href="">Draconic Bloodline</a></li>
+                  <li><a href="">Diving Soul</a></li>
+                  <li><a href="">Lunar Sorcery</a></li>
+                  <li><a href="">Shadow Magic</a></li>
+                  <li><a href="">Storm Sorcery</a></li>
+                  <li><a href="">Wild Magic</a></li>
+                </ul>
+              </div>
+              <div class="col-md-5">
+                <h4>Kaladesh Setting</h4>
+                <ul>
+                  <li><a href="">Pyromany</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offrowclass">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h2 id="Warlock" class="classes"><a href="Classes/Warlock/Warlock.html">Warlock</a></h2>
+            <p class="italic">Warlocks are seekers of the knowledge that lies hidden in the fabric of the multiverse. through pacts made with mysterious beings of supernatural power, warlocks unlock magical effects both subtle and spectacular.</p>
+            <div class="row justify-content-left">
+              <div class="col-md-7">
+                <h4>Subclasses</h4>
+                <ul>
+                  <li><a href="">Archfey</a></li>
+                  <li><a href="">Celestial</a></li>
+                  <li><a href="">Fathomless</a></li>
+                  <li><a href="">Fiend</a></li>
+                  <li><a href="">The Genie</a></li>
+                  <li><a href="">Great Old One</a></li>
+                  <li><a href="">Hexblade</a></li>
+                  <li><a href="">Undead</a></li>
+                  <li><a href="">Undying</a></li>
+                </ul>
+              </div>
+              <div class="col-md-5">
+                <h4>Quick Links</h4>
+                <ul>
+                  <li><a href="">Eldritch Invocations</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="onrowclass">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h2 id="Wizard" class="classes"><a href="Classes/Wizard/Wizard.html">Wizard</a></h2>
+            <p class="italic">Wizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cost spells of explosive fire, arcing lightning, subtle deception, brute-force mind control, and much more.</p>
+            <div class="row justify-content-left">
+              <div class="col-md-7">
+                <h4>Subclasses</h4>
+                <ul>
+                  <li><a href="">Bladesinging</a></li>
+                  <li><a href="">Chronurgy Magic</a></li>
+                  <li><a href="">Graviturgy Magic</a></li>
+                  <li><a href="">Order of Scribes</a></li>
+                  <li><a href="">School of Abjuration</a></li>
+                  <li><a href="">School of Conjuration</a></li>
+                  <li><a href="">School of Divination</a></li>
+                  <li><a href="">School of Enchantment</a></li>
+                  <li><a href="">School of Evocation</a></li>
+                  <li><a href="">School of Illusion</a></li>
+                  <li><a href="">School of Necromancy</a></li>
+                  <li><a href="">School of Transmutation</a></li>
+                  <li><a href="">War Magic</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Feats" class="offrow">
+      <div class="row justify-content-center">
+        <div class="col-md-2">
+          <h2>Feats</h2>
+          <ul>
+            <li><a href="">Aberrant Dragonmark</a></li>
+            <li><a href="">Actor</a></li>
+            <li><a href="">Alert</a></li>
+            <li><a href="">Artificer initiate</a></li>
+            <li><a href="">Athlete</a></li>
+            <li><a href="">Cartomancer</a></li>
+            <li><a href="">Charger</a></li>
+            <li><a href="">Chef</a></li>
+            <li><a href="">Crossbow Expert</a></li>
+            <li><a href="">Crusher</a></li>
+            <li><a href="">Defensive Expert</a></li>
+            <li><a href="">Dual Wielder</a></li>
+            <li><a href="">Dungeon Delver</a></li>
+            <li><a href="">Durable</a></li>
+            <li><a href="">Eldritch Adept</a></li>
+            <li><a href="">Elemental Adept</a></li>
+            <li><a href="">Ember of the Fire Giant</a></li>
+            <li><a href="">Fey Touched</a></li>
+            <li><a href="">Fighting Initiate</a></li>
+            <li><a href="">Fury of the Frost Giant</a></li>
+            <li><a href="">Gift of the Chromatic Dragon</a></li>
+            <li><a href="">Gift of the Gem Dragon</a></li>
+            <li><a href="">Gift of the Metallic Dragon</a></li>
+            <li><a href="">Grappler</a></li>
+            <li><a href="">Great Weapon Master</a></li>
+            <li><a href="">Guile of the Cloud Giant</a></li>
+            <li><a href="">Gunner</a></li>
+            <li><a href="">Healer</a></li>
+            <li><a href="">Heavily Armoered</a></li>
+            <li><a href="">Heavy Armor Master</a></li>
+            <li><a href="">Inspiring Leader</a></li>
+            <li><a href="">Keen Mind</a></li>
+            <li><a href="">Keenness of the Stone Giant</a></li>
+            <li><a href="">Lightly Armored</a></li>
+            <li><a href="">Linguist</a></li>
+            <li><a href="">Lucky</a></li>
+            <li><a href="">Magic Slayer</a></li>
+            <li><a href="">Magic Initiate</a></li>
+            <li><a href="">Martial Adept</a></li>
+            <li><a href="">Medium Armor Master</a></li>
+            <li><a href="">Metamagic Adept</a></li>
+            <li><a href="">Mobile</a></li>
+            <li><a href="">Moderately Armored</a></li>
+            <li><a href="">Mounted Combatant</a></li>
+            <li><a href="">Observant</a></li>
+            <li><a href="">Piercer</a></li>
+            <li><a href="">Poisoner</a></li>
+            <li><a href="">Polearm Master</a></li>
+            <li><a href="">Resilient</a></li>
+            <li><a href="">Ritual Caster</a></li>
+            <li><a href="">Rune Shaper</a></li>
+            <li><a href="">Savage Attacker</a></li>
+            <li><a href="">Sentinel</a></li>
+            <li><a href="">Shadow Touched</a></li>
+            <li><a href="">Sharpshooter</a></li>
+            <li><a href="">Shield Master</a></li>
+            <li><a href="">Skill Expoert</a></li>
+            <li><a href="">Skilled</a></li>
+            <li><a href="">Skuller</a></li>
+            <li><a href="">Slasher</a></li>
+            <li><a href="">Soul of the Storm Giant</a></li>
+            <li><a href="">Spell Sniper</a></li>
+            <li><a href="">Strike of the Giants</a></li>
+            <li><a href="">Tavern Brawler</a></li>
+            <li><a href="">Telekinetic</a></li>
+            <li><a href="">Telepathic</a></li>
+            <li><a href="">Tough</a></li>
+            <li><a href="">Vigor of the Hill Giant</a></li>
+            <li><a href="">War Caster</a></li>
+            <li><a href="">Weapon Master</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h2>Racial Feats</h2>
+          <ul>
+            <li><a href="">Bountiful Luck</a></li>
+            <li><a href="">Dragon Fear</a></li>
+            <li><a href="">Dragon Hide</a></li>
+            <li><a href="">Dwarven Fortitude</a></li>
+            <li><a href="">Drow High Magic</a></li>
+            <li><a href="">Elven Accuracy</a></li>
+            <li><a href="">Fade Away</a></li>
+            <li><a href="">Fey Teleportation</a></li>
+            <li><a href="">Flames of Phlegethos</a></li>
+            <li><a href="">Infernal Constitution</a></li>
+            <li><a href="">Orcish Fury</a></li>
+            <li><a href="">Prodigy</a></li>
+            <li><a href="">Revenant Blade</a></li>
+            <li><a href="">Second Chance</a></li>
+            <li><a href="">Squat Nimbleness</a></li>
+            <li><a href="">Svirfneblin Magic</a></li>
+            <li><a href="">Wood Elf Magic</a></li>
+          </ul>
+          <h4>Plane Shift</h4>
+          <ul>
+            <li><a href="">Vampiric Exultation</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h2>Setting Specific</h2>
+          <h4>Planescape</h4>
+          <ul>
+            <li><a href="">Agent of Order</a></li>
+            <li><a href="">Baleful Scion</a></li>
+            <li><a href="">Cohort of Chaos</a></li>
+            <li><a href="">Outlands Envoy</a></li>
+            <li><a href="">Planar Wanderer</a></li>
+            <li><a href="">Righteous Heritor</a></li>
+            <li><a href="">Scion of the Outer Planes</a></li>
+          </ul>
+          <h4>Strixhaven</h4>
+          <ul>
+            <li><a href="">Strixhaven Initiate</a></li>
+            <li><a href="">Strixhaven Mascot</a></li>
+          </ul>
+          <h4>Dragonlance</h4>
+          <ul>
+            <li><a href="">Adept of the Black Robes</a></li>
+            <li><a href="">Adept of the Red Robes</a></li>
+            <li><a href="">Adept of the White Robes</a></li>
+            <li><a href="">Divinely Favored</a></li>
+            <li><a href="">Initiate of High Sorcery</a></li>
+            <li><a href="">Knight of the Crown</a></li>
+            <li><a href="">Knight of the Rose</a></li>
+            <li><a href="">Knight of the Sword</a></li>
+            <li><a href="">Squire of Solamnia</a></li>
+          </ul>
+          <h4>Plane Shift</h4>
+          <ul>
+            <li><a href="">Servo Crafting</a></li>
+            <li><a href="">Quicksmithning</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="Items" class="onrow">
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <h2>Items</h2>
+          <ul>
+            <li><a href="">Adventuring Gear</a></li>
+            <li><a href="">Armor and Shields</a></li>
+            <li><a href="">Currency</a></li>
+            <li><a href="">Explosives</a></li>
+            <li><a href="">Firearms</a></li>
+            <li><a href="">Poisons</a></li>
+            <li><a href="">Siege Equipment</a></li>
+            <li><a href="">Tools</a></li>
+            <li><a href="">Trinkets</a></li>
+            <li><a href="">Weapons</a></li>
+            <li><a href="">Wondrous Items</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="Miscellaneous" class="offrow">
+      <div class="row justify-content-center">
+        <h2 class="text-center">Miscellaneous</h2>
+        <div class="col-md-3">
+          <h4><a href="Miscellaneous/Blessings.html">Blessings</a></h4>
+          <h4><a href="Miscellaneous/Charms.html">Charms</a></h4>
+          <h4><a href="Miscellaneous/Dark Gifts.html">Dark Gifts</a></h4>
+          <h4><a href="Miscellaneous/Draconic Gifts.html">Draconic Gifts</a></h4>
+          <h4><a href="Miscellaneous/Epic Boons.html">Epic Boons</a></h4>
+          <h4><a href="Miscellaneous/Madness.html">Madness</a></h4>
+          <h4><a href="Miscellaneous/Mounts & Vehicles.html">Mounts & Vehicles</a></h4>
+          <h4><a href="Miscellaneous/Sidekicks.html">Sidekicks</a></h4>
+          <ul>
+            <li><a href="">Expoert</a></li>
+            <li><a href="">Spellcaster</a></li>
+            <li><a href="">Warrior</a></li>
+          </ul>
+          <h4><a href="Miscellaneous/Supernatural Gifts.html">Supernatural Gifts</a></h4>
+          <h4><a href="Miscellaneous/Survivors.html">Survivors</a></h4>
+        </div>
+        <div class="col-md-3">
+          <h4>Heroic Chronicle</h4>
+          <p class="italic">The Heroic Chronicle is a system that allows players and Dungeon Masters to work together to build a compelling character story. It even allows characters to gain additional proficiencies, magic items, spells, or feats before the campaign begins.</p>
+          <ul>
+            <li><a href="">Wildemount</a></li>
+            <li><a href="">Sword Coast (D&D Beyound)</q></li>
+            <li><a href="">This is Your Life</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html> 
