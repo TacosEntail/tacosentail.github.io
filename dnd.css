@@ -1,0 +1,33 @@
+.title {
+    font-style: italic;
+}
+.onrow {
+    background-color: #ffe68c;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.offrow {
+    background-color: #FFFCF2;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.onrowclass{
+    background-color: #ffe68c;
+    padding-bottom: 30px;
+}
+.offrowclass{
+    background-color: #FFFCF2;
+    padding-bottom: 30px;
+}
+a:link {
+    color: #908149;
+}
+a:visited {
+    color: #908149;
+}
+.italic {
+    font-style: italic;
+}
+.classes {
+    padding-top: 60px;
+}
