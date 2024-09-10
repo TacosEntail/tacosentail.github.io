@@ -1,8 +1,10 @@
 .title {
     font-style: italic;
+    color: #822000;
+    padding-top: 10px;
 }
 .onrow {
-    background-color: #ffe68c;
+    background-color: #fdf1dc;
     padding-top: 60px;
     padding-bottom: 30px;
 }
@@ -12,12 +14,18 @@
     padding-bottom: 30px;
 }
 .onrowclass{
-    background-color: #ffe68c;
+    background-color: #fdf1dc;
     padding-bottom: 30px;
 }
 .offrowclass{
     background-color: #FFFCF2;
     padding-bottom: 30px;
+}
+.oncolor {
+    background-color: #fdf1dc;
+}
+.offcolor {
+    background-color: #FFFCF2;
 }
 a:link {
     color: #908149;
@@ -31,3 +39,23 @@ a:visited {
 .classes {
     padding-top: 60px;
 }
+.boxColor {
+    background-color: #fdf1dc;
+    padding: 10px;
+}
+.dndBorderColor {
+    height: 3px;
+    background: #e69a28;
+}
+
+
+/*
+Old onrow #ffe68c
+Old offrow #FFFCF2
+
+Alternative colors
+yellow background #rgb(253, 241, 220)
+boarder #e69a28
+red text #822000
+Also use black text
+*/
