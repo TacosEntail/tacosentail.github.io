@@ -47,6 +47,26 @@ a:visited {
     height: 3px;
     background: #e69a28;
 }
+.tableHeader {
+    --bs-table-color: #323539;
+    --bs-table-bg: #e1cb7c;
+    --bs-table-border-color: #4d5154;
+    --bs-table-striped-bg: #e1cb7c;
+    --bs-table-striped-color: #323539;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color);
+}
+.tableLines {
+    --bs-table-color: #323539;
+    --bs-table-bg: #FFFCF2;
+    --bs-table-border-color: #4d5154;
+    --bs-table-striped-bg: #fdf1dc;
+    --bs-table-striped-color: #323539;
+    --bs-table-hover-bg: #54585d;
+    --bs-table-hover-color: #fff;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color);
+}
 
 
 /*
@@ -54,7 +74,7 @@ Old onrow #ffe68c
 Old offrow #FFFCF2
 
 Alternative colors
-yellow background #rgb(253, 241, 220)
+yellow background #fdf1dc
 boarder #e69a28
 red text #822000
 Also use black text
