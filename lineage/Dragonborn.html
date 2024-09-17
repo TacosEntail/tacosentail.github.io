@@ -1,0 +1,345 @@
+<!DOCTYPE HTML>
+<html>
+    <body style="background-color: #FFFCF2;"></body>
+    <!--<body style="background-color: #786B3D;"></body>-->
+  <head>
+    
+    <script src="../script.js"></script>
+    <link rel="stylesheet" href="../dnd.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </head>
+  
+  <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html#">DNDNici</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav-scroll">
+          <li class="nav-item"><a class="nav-link" href="../index.html#Homebrew">Homebrew</a></li>
+          <li class="nav-item"><a class="nav-link" href="../index.html#Spells">Spells</a></li>
+          <li class="nav-item"><a class="nav-link" href="../index.html#Races">Races</a></li>
+          <li class="nav-item"><a class="nav-link" href="../index.html#Backgrounds">Backgrounds</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#Classes" role="button" data-bs-toggle="dropdown" aria-expanded="false">Classes</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../index.html#Artificer">Artificer</a></li>
+              <li><a class="dropdown-item" href="../index.html#Barbarian">Barbarian</a></li>
+              <li><a class="dropdown-item" href="../index.html#Bard">Bard</a></li>
+              <li><a class="dropdown-item" href="../index.html#Blood Hunter">Blood Hunter</a></li>
+              <li><a class="dropdown-item" href="../index.html#Cleric">Cleric</a></li>
+              <li><a class="dropdown-item" href="../index.html#Druid">Druid</a></li>
+              <li><a class="dropdown-item" href="../index.html#Fighter">Fighter</a></li>
+              <li><a class="dropdown-item" href="../index.html#Monk">Monk</a></li>
+              <li><a class="dropdown-item" href="../index.html#Paladin">Paladin</a></li>
+              <li><a class="dropdown-item" href="../index.html#Ranger">Ranger</a></li>
+              <li><a class="dropdown-item" href="../index.html#Rogue">Rogue</a></li>
+              <li><a class="dropdown-item" href="../index.html#Sorcerer">Sorcerer</a></li>
+              <li><a class="dropdown-item" href="../index.html#Warlock">Warlock</a></li>
+              <li><a class="dropdown-item" href="../index.html#Wizard">Wizard</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="../index.html#Feats">Feats</a></li>
+          <li class="nav-item"><a class="nav-link" href="../index.html#Items">Items</a></li>
+          <li class="nav-item"><a class="nav-link" href="../index.html#Miscellaneous">Miscellaneous</a></li>
+        </ul>
+        <!--<form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>-->
+      </div>
+    </div>
+  </nav>
+
+  <body>
+
+    <div class="row justify-content-center">
+      <div class="col-md-9">
+        <h2 class="title">Dragonborn</h2>
+        <!--Add the ability to click on the name and show the image?-->
+        <hr style="border:2px solid black">
+        <div class="row justify-content-center">
+            
+          <div class="col-md-12 rounded boxColor" style="border: 2px solid black;">
+            <div style="padding: 5px;"></div>
+            <div class="float-end rounded " style="border: 1px solid black; border-radius: 5px;background-color: white;">
+              <div id="TableClose" style="display:contents;">
+                <p><a onclick="closeContent()">&nbsp;&nbsp;Table of Content ↑&nbsp;</a></p>
+                <ul>
+                  <a href="#">Player's Handbook</a><br>
+                  <a href="#Explorer's Guide to Wildemount">Explorer's Guide to Wildemount</a>&nbsp;
+                  <ul><a href="#Draconblood">Draconblood</a></ul>
+                  <ul><a href="#Ravenite">Ravenite</a></ul>
+                  <a href="#Fizban's Treasury of Dragons">Fizban's Treasury of Dragons</a>
+                  <ul><a href="#Chromatic">Chromatic</a></ul>
+                  <ul><a href="#Metallic">Metallic</a></ul>
+                  <ul><a href="#Gem">Gem</a></ul>
+                </ul>
+              </div>
+              <div id="TableOpen" style="display:none;">
+                <p><a onclick="OpenContent()">&nbsp;&nbsp;Table of Content ↓&nbsp;</a></p>
+              </div>
+            </div>
+            <h3 class="title" style="padding-bottom: 20px;">Player's Handbook</h3>
+            <p><b>Born of dragons, as their name proclaims, the Dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, Dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some Dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.</b></p>
+            <ul>
+              <li><b>Ability Score Suggestion:</b> Strength +2 and Charisma +1</li>
+              <li><b>Age:</b> Young Dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old Human child by the age of 3, and reach adulthood by 15. They live to be around 80.</li>
+              <li><b>Alignment:</b> Dragonborn tend towards extremes, making a conscious choice for one side or the other between Good and Evil (represented by Bahamut and Tiamat, respectively). More side with Bahamut than Tiamat (whose non-dragon followers are mostly kobolds), but villainous Dragonborn can be quite terrible indeed. Some rare few choose to devote themselves to lesser dragon deities, such as Chronepsis (Neutral), and fewer still choose to worship Io, the Ninefold Dragon, who is all alignments at once.</li>
+              <li><b>Size:</b> Dragonborn are taller and heavier than Humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.</li>
+              <li><b>Type:</b> You are a Humanoid.</li>
+              <li><b>Speed:</b> Your base walking speed is 30 feet</li>
+              <li><b>Draconic Ancestry:</b> You are distantly related to a particular kind of dragon. Choose a type of dragon from the below list; this determines the damage and area of your breath weapon, and the type of resistance you gain.</li>
+            </ul>
+            <table class="table table-sm table-hover">
+              <thead class="tableHeader">
+                <tr>
+                  <th scope="col">Dragon Color</th>
+                  <th scope="col">Damage Type</th>
+                  <th scope="col">Breath Weapon</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                <tr>
+                  <th scope="row">Black</th>
+                  <th>Acid</th>
+                  <th>5 by 30 ft. line (DEX save)</th>
+                </tr>
+                <tr>
+                  <th scope="row">Blue</th>
+                  <th>Lightning</th>
+                  <th>5 by 30 ft. line (DEX save)</th>
+                </tr>
+                <tr>
+                  <th scope="row">Brass</th>
+                  <th>Fire</th>
+                  <th>5 by 30 ft. line (DEX save)</th>
+                </tr>
+                <tr>
+                  <th scope="row">Bronze</th>
+                  <th>Lightning</th>
+                  <th>5 by 30 ft. line (DEX save)</th>
+                </tr>
+                <tr>
+                  <th scope="row">Copper</th>
+                  <th>Acid</th>
+                  <th>5 by 30 ft. line (DEX save)</th>
+                </tr>
+                <tr>
+                  <th scope="row">Gold</th>
+                  <th>Fire</th>
+                  <th>15 ft. cone (DEX save)</th>
+                </tr>
+                <tr>
+                  <th scope="row">Green</th>
+                  <th>Poison</th>
+                  <th>15 ft. cone (CON save)</th>
+                </tr>
+                <tr>
+                  <th scope="row">Red</th>
+                  <th>Fire</th>
+                  <th>15 ft. cone (DEX save)</th>
+                </tr>
+                <tr>
+                  <th scope="row">Silver</th>
+                  <th>Cold</th>
+                  <th>15 ft. cone (CON save)</th>
+                </tr>
+                <tr>
+                  <th scope="row">White</th>
+                  <th>Cold</th>
+                  <th>15 ft. cone (CON save)</th>
+                </tr>
+              </tbody>
+            </table>
+            <ul>
+              <li><b>Breath Weapon:</b>  When you take the Attack action on your turn, you can replace one of your attacks with an exhale of destructive energy. It deals damage in an area according to your ancestry. When you use your breath weapon, all creatures in the area must make a saving throw, the type of which is determined by your ancestry. The DC of this saving throw is 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage on a failed save, and half as much damage on a successful one. The damage increase to 3d8 at 6th level, 4d8 at 11th, and 5d8 at 16th level. You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
+              <li><b>Damage Resistance:</b> You have resistance to the damage type associated with your ancestry.</li>
+              <li><b>Languages:</b> You can read, speak, and write Common and Draconic.</li>
+            </ul>
+         
+            <h3 id="Explorer's Guide to Wildemount" class="title" style="padding-top: 50px;">Explorer's Guide to Wildemount</h3>
+            <h5 id="Draconblood" class="title" style="padding-top: 50px;padding-bottom: 10px;">Draconblood</h5>
+            <p><b>Draconbloods possess long tails and a knack for social manipulation. They remember the days when they were once mighty conquerors.</b></p>
+            <p><b>A Draconblood uses the Dragonborn traits in the Player's Handbook, with the following traits replacing the Ability Score Increase and Damage Resistance traits.</b></p>
+            <ul>
+              <li><b>Ability Score Suggestion:</b> Intelligence +2 and Charisma +1</li>
+              <li><b>Darkvision:</b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</li>
+              <li><b>Forceful Presence:</b> When you make a Intimidation or Persuasion check, you can do so with advantage once per long rest.</li>
+            </ul>
+          
+            <h5 id="Ravenite" class="title" style="padding-top: 50px;padding-bottom: 10px;">Ravenite</h5>
+            <p><b>Ravenites have no tails and a hearty physique. They remember the days when they were slaves to the Draconblood, as well as the day when they overthrew their masters.</b></p>
+            <p><b>A Ravenite uses the Dragonborn traits in the Player's Handbook, with the following traits replacing the Ability Score Increase and Damage Resistance traits.</b></p>
+            <ul>
+              <li><b>Ability Score Suggestion:</b> Strength +2 and Constitution +1</li>
+              <li><b>Darkvision:</b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</li>
+              <li><b>Vengeful Assault:</b> When you take damage from a creature in range of a weapon you are wielding, you can use your reaction to make an attack against that creature. You can do this a number of times equal to your proficiency bonus per short or long rest.</li>
+            </ul>
+
+            <h3 id="Fizban's Treasury of Dragons" class="title" style="padding-top: 50px;">Fizban's Treasury of Dragons</h3>
+            <h5 id="Chromatic" class="title" style="padding-top: 50px;padding-bottom: 10px;">Chromatic</h5>
+            <p><b>Dragonborn with chromatic ancestry claim the raw elemental power of chromatic dragons. The vibrant colors of black, blue, green, red, and white dragons gleam in those Dragonborn's scaled skin and in the deadly energy of their breath weapons. Theirs is the raw elemental fury of the volcano, of biting arctic winds, and of raging lightning storms, as well as the subtle whisper of swamp and forest, toxic and corrosive.</b></p>
+            <ul>
+              <li><b>Ability Score Suggestion:</b> Strength +2 and Charisma +1</li>
+              <li><b>Type:</b> You are a Humanoid.</li>
+              <li><b>Size:</b> You are Medium.</li>
+              <li><b>Speed:</b> Your walking speed is 30 feet.</li>
+              <li><b>Chromatic Ancestry:</b> You trace your ancestry to a chromatic dragon, granting you a special magical affinity. Choose one type of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits as shown in the table.</li>
+              <table class="table table-sm table-hover">
+                <thead class="tableHeader">
+                  <tr>
+                    <th scope="col">Chromatic Ancestry</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <thead class="tableHeader">
+                  <tr>
+                    <th scope="col">Dragon Color</th>
+                    <th scope="col">Damage Type</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <th scope="row">Black</th>
+                    <th>Acid</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">Blue</th>
+                    <th>Lightning</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">Green</th>
+                    <th>Poison</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">Red</th>
+                    <th>Fire</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">White</th>
+                    <th>Cold</th>
+                  </tr>
+                </tbody>
+              </table>
+              <li><b>Breath Weapon:</b> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 2d8 damage of the type associated with your Chromatic Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8). You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
+              <li><b>Draconic Resistance:</b> You have resistance to the damage type associated with your Chromatic Ancestry.</li>
+              <li><b>Chromatic Warding:</b> Starting at 5th level, as an action, you can channel your draconic energy to protect yourself. For 1 minute, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can’t do so again until you finish a long rest.</li>
+              <li><b>Languages</b> You can read, speak, and write Common and Draconic.</li>
+            </ul>
+
+            <h5 id="Metallic" class="title" style="padding-top: 50px;padding-bottom: 10px;">Metallic</h5>
+            <p><b>Dragonborn with metallic ancestry lay claim to the tenacity of metallic dragons — brass, bronze, copper, gold, and silver — whose hues glint in their scales. Theirs is the fire of hearth and forge, the cold of high mountain air, the spark of inspiration, and the scouring touch of acid that purifies.</b></p>
+            <ul>
+              <li><b>Ability Score Suggestion:</b> Strength +2 and Charisma +1</li>
+              <li><b>Type:</b> You are a Humanoid.</li>
+              <li><b>Size:</b> You are Medium.</li>
+              <li><b>Speed:</b> Your walking speed is 30 feet.</li>
+              <li><b>Chromatic Ancestry:</b> You trace your ancestry to a metallic dragon, granting you a special magical affinity. Choose one type of dragon from the Metallic Ancestry table. This determines the damage type for your other traits as shown in the table.</li>
+              <table class="table table-sm table-hover">
+                <thead class="tableHeader">
+                  <tr>
+                    <th scope="col">Metallic Ancestry</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <thead class="tableHeader">
+                  <tr>
+                    <th scope="col">Dragon Color</th>
+                    <th scope="col">Damage Type</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <th scope="row">Brass</th>
+                    <th>Fire</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">Bronze</th>
+                    <th>Lightning</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">Copper</th>
+                    <th>Acid</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">Gold</th>
+                    <th>Fire</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">Silver</th>
+                    <th>Cold</th>
+                  </tr>
+                </tbody>
+              </table>
+              <li><b>Breath Weapon:</b> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 2d8 damage of the type associated with your Metallic Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8). You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
+              <li><b>Draconic Resistance:</b> You have resistance to the damage type associated with your Metallic Ancestry.</li>
+              <li><b>Metallic Breath Weapon:</b> At 5th level, you gain a second breath weapon. When you take the Attack action on your turn, you can replace one of your attacks with an exhalation in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. Whenever you use this trait, choose one:</li>
+              <ul>
+                <ul><li><b>Enervating Breath:</b>  Each creature in the cone must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.</li></ul>
+                <ul><li><b>Repulsion Breath:</b> Each creature in the cone must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone.</li></ul>
+                <li>Once you use your Metallic Breath Weapon, you can't do so again until you finish a long rest.</li>
+              </ul>
+              <li><b>Languages</b> You can read, speak, and write Common and Draconic.</li>
+            </ul>
+
+            <h5 id="Gem" class="title" style="padding-top: 50px;padding-bottom: 10px;">Gem</h5>
+            <p><b>Gem Dragonborn partake of the heritage of gem dragons, who claim to be heirs of Sardior, the Ruby Dragon. The colors and mysterious powers of gem dragons — amethyst, crystal, emerald, sapphire, and topaz — gleam in these dragonborn’s scaled skin and course through their veins. Theirs are the wonders of the mind, the force of will, the brilliant light of insight, and the resounding echo of discovery — but also the desiccation of despair.</b></p>
+            <ul>
+              <li><b>Ability Score Suggestion:</b> Strength +2 and Charisma +1</li>
+              <li><b>Type:</b> You are a Humanoid.</li>
+              <li><b>Size:</b> You are Medium.</li>
+              <li><b>Speed:</b> Your walking speed is 30 feet.</li>
+              <li><b>Chromatic Ancestry:</b> You trace your ancestry to a Gem dragon, granting you a special magical affinity. Choose one type of dragon from the Gem Ancestry table. This determines the damage type for your other traits as shown in the table.</li>
+              <table class="table table-sm table-hover">
+                <thead class="tableHeader">
+                  <tr>
+                    <th scope="col">Gem Ancestry</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <thead class="tableHeader">
+                  <tr>
+                    <th scope="col">Dragon Color</th>
+                    <th scope="col">Damage Type</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <th scope="row">Amethyst</th>
+                    <th>Force</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">Crystal</th>
+                    <th>Radiant</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">Emerald</th>
+                    <th>Psychic</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">Sapphire</th>
+                    <th>Thunder</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">Topaz</th>
+                    <th>Necrotic</th>
+                  </tr>
+                </tbody>
+              </table>
+              <li><b>Breath Weapon:</b> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 2d8 damage of the type associated with your Gem Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8). You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
+              <li><b>Draconic Resistance:</b> You have resistance to the damage type associated with your Gem Ancestry.</li>
+              <li><b>Psionic Mind:</b> You can telepathically speak to any creature you can see within 30 feet of you. You don't need to share a language with the creature, but the creature must be able to understand at least one language.</li>
+              <li><b>Gem Flight:</b> Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can't do so again until you finish a long rest.</li>
+              <li><b>Languages</b> You can read, speak, and write Common and Draconic.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
