@@ -6,3 +6,4 @@ function OpenContent() {
     document.getElementById("TableClose").style.display = 'contents';
     document.getElementById("TableOpen").style.display = 'none';
 }
+
