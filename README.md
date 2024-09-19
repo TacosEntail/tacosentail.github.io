@@ -8,4 +8,5 @@ Notes
 
 Currently Working on
  - Everything
- - Races
+ - Rules
+ - Spells
