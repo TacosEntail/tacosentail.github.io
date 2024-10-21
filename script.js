@@ -15,8 +15,7 @@ function spellVisibility() {
 
     //Change the name of the spell list at the top of the screen so the user knows what they are looking at
     if (urlParamater.length > 19) {
-        urlParamater = ""
-        document.getElementById("SpellHeader").textContent = urlParamater + " Spells";
+        document.getElementById("SpellHeader").textContent = "Spells";
         
         var elements = document.getElementsByClassName("Spells");
         for (i=0; i<elements.length; i++) {
@@ -32,13 +31,11 @@ function spellVisibility() {
         filters = ["Artificer","Bard","Cleric","Druid","Fighter","Paladin","Ranger","Rogue","Sorcerer","Warlock","Wizard","Abjuration","Conjuration","Divination","Enchantment","Evocation","Illusion","Necromancy","Transmutation","Dunamancy","Homebrew","Ritual","Technomagic","Unearthed Arcana"];
     
         for (f=0; f<filters.length; f++) {
-            if (urlParamater == "Artificer") {
-                if (filters[f] == "Artificer") {
+            if ((urlParamater == "Artificer") & (filters[f] == "Artificer")) {
                     var elements = document.getElementsByClassName(filters[f]);
                     for (i=0; i<elements.length; i++) {
                         elements[i].style.display = '';
                     }
-                }
             }
             //else if (urlParamater == "Bard") {
             //}
