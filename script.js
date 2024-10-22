@@ -13,7 +13,6 @@ function spellVisibility() {
     url = window.location.href;
     urlParamater = url.substring(url.indexOf('?')+6);
 
-    //Change the name of the spell list at the top of the screen so the user knows what they are looking at
     if (urlParamater.length > 19) {
         document.getElementById("SpellHeader").textContent = "Spells";
         
