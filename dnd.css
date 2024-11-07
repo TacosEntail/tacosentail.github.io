@@ -33,6 +33,9 @@ a:link {
 a:visited {
     color: #908149;
 }
+a:focus {
+    color: #000000
+}
 .italic {
     font-style: italic;
 }
