@@ -13,6 +13,10 @@ function spellVisibility() {
     url = window.location.href;
     urlParamater = url.substring(url.indexOf('?')+6);
 
+    if(urlParamater.substring(urlParamater.length - 1) == '#') {
+        urlParamater = urlParamater.substring(0, urlParamater.length - 1);
+    }
+
     if (urlParamater.length > 19) {
         document.getElementById("SpellHeader").textContent = "Spells";
         
