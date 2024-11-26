@@ -2,13 +2,16 @@ function closeContent() {
     document.getElementById("TableClose").style.display = 'none';
     document.getElementById("TableOpen").style.display = 'contents';
 }
+
 function OpenContent() {
     document.getElementById("TableClose").style.display = 'contents';
     document.getElementById("TableOpen").style.display = 'none';
 }
+
 function printInfo(information) {
     console.log(information);
 }
+
 function spellVisibility() {
     url = window.location.href;
     urlParamater = url.substring(url.indexOf('?')+6);
