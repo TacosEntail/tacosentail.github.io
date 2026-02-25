@@ -9,4 +9,8 @@ Notes
 Currently Working on
  - Everything
  - Rules
- - Spells
+ - Adding Spell Links
+ - Adding homebrew
+ - - BattleZoo
+ - - Delve
+ - - Ryoko
