@@ -8,9 +8,9 @@ Notes
 
 Currently Working on
  - Everything
- - Rules
  - Adding Spell Links
  - Adding homebrew
+ - - spells, races, background, classes, feats
  - - BattleZoo
  - - Delve
  - - Ryoko
