@@ -29,12 +29,13 @@ function spellVisibility() {
         }
     }
     else {
-        if (urlParamater == "Unearthed%20Arcana") {
+        /*if (urlParamater == "Unearthed%20Arcana") {
             urlParamater = "Unearthed Arcana"
-        }
+        }*/
         document.getElementById("SpellHeader").textContent = urlParamater + " Spells";
     
-        filters = ["Artificer","Bard","Cleric","Druid","Fighter","Paladin","Ranger","Rogue","Sorcerer","Warlock","Wizard","Abjuration","Conjuration","Divination","Enchantment","Evocation","Illusion","Necromancy","Transmutation","Dunamancy","Homebrew","Ritual","Technomagic","Unearthed Arcana"];
+        filters = ["Artificer","Bard","Cleric","Druid","Fighter","Paladin","Ranger","Rogue","Sorcerer","Warlock","Wizard","Abjuration","Conjuration","Divination","Enchantment","Evocation","Illusion","Necromancy","Transmutation","Concentration","Ritual","Battlezoo","Delve","Ryokos"];
+        //"Dunamancy","Homebrew","Technomagic","Unearthed Arcana",
     
         for (f=0; f<filters.length; f++) {
             if ((urlParamater == "Artificer") & (filters[f] == "Artificer")) {
@@ -151,19 +152,43 @@ function spellVisibility() {
                     elements[i].style.display = '';
                 }
             }
-            else if ((urlParamater == "Dunamancy") & (filters[f] == "Dunamancy")) {
-                var elements = document.getElementsByClassName(filters[f]);
-                for (i=0; i<elements.length; i++) {
-                    elements[i].style.display = '';
-                }
-            }
-            else if ((urlParamater == "Homebrew") & (filters[f] == "Homebrew")) {
+            else if ((urlParamater == "Concentration") & (filters[f] == "Concentration")) {
                 var elements = document.getElementsByClassName(filters[f]);
                 for (i=0; i<elements.length; i++) {
                     elements[i].style.display = '';
                 }
             }
             else if ((urlParamater == "Ritual") & (filters[f] == "Ritual")) {
+                var elements = document.getElementsByClassName(filters[f]);
+                for (i=0; i<elements.length; i++) {
+                    elements[i].style.display = '';
+                }
+            }
+            else if ((urlParamater == "Battlezoo") & (filters[f] == "Battlezoo")) {
+                var elements = document.getElementsByClassName(filters[f]);
+                for (i=0; i<elements.length; i++) {
+                    elements[i].style.display = '';
+                }
+            }
+            else if ((urlParamater == "Delve") & (filters[f] == "Delve")) {
+                var elements = document.getElementsByClassName(filters[f]);
+                for (i=0; i<elements.length; i++) {
+                    elements[i].style.display = '';
+                }
+            }
+            else if ((urlParamater == "Ryokos") & (filters[f] == "Ryokos")) {
+                var elements = document.getElementsByClassName(filters[f]);
+                for (i=0; i<elements.length; i++) {
+                    elements[i].style.display = '';
+                }
+            }
+            /*else if ((urlParamater == "Dunamancy") & (filters[f] == "Dunamancy")) {
+                var elements = document.getElementsByClassName(filters[f]);
+                for (i=0; i<elements.length; i++) {
+                    elements[i].style.display = '';
+                }
+            }
+            else if ((urlParamater == "Homebrew") & (filters[f] == "Homebrew")) {
                 var elements = document.getElementsByClassName(filters[f]);
                 for (i=0; i<elements.length; i++) {
                     elements[i].style.display = '';
@@ -181,6 +206,7 @@ function spellVisibility() {
                     elements[i].style.display = '';
                 }
             }
+            */
         }
     }
 }
